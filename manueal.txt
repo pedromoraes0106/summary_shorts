@@ -1,0 +1,8 @@
+- Pasta web é a do front-end, responsável parte de interação com o usuário.
+- Pasta server é a do back-end, responsável por baixar o vídeo do youtube para entregar ao usuário.
+- Pasta temp armazena temporariamente o video baixado do youtube.
+
+- server.js conecta o back-end com o front-end.
+- form.js coleta os dados do index, filtra o link e coleta somente o Id do vídeo, e também, atualiza o usuário sobre o andamento do vídeo que ele solicitou.
+- index.js puxa o resumo e a transcrição do vídeo.
+- convert.js extrai e converte o áudio.
